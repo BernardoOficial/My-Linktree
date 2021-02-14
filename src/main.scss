@@ -1,4 +1,7 @@
-h1 {
-    font-size: 40px;
-    color: red;
-}
+@import "./css/reset";
+@import "./css/base";
+
+@import "./components/Wrapper/style";
+@import "./components/Header/style";
+@import "./components/UltimoProjeto/style";
+@import "./components/RedesSociais/style";
