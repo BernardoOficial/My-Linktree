@@ -16,15 +16,22 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 235px;
+
+    @media (max-width: 420px) {
+        background-size: auto;
+    }
 
     width: 100%;
     min-height: 100vh;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: flex-start;
 }
 
-$color-bg-wrapper: rgba(0, 0, 0, 0.4);
+$color-bg-wrapper: rgba(0, 0, 0, 0.6);
 $color-primaria: #ffffff;
 $color-secundaria: #e1a91d;
 $color-terciaria: #d1990b;
