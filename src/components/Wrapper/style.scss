@@ -1,7 +1,12 @@
 .wrapper {
     position: relative;
     width: 375px;
+    height: 400px;
     margin: 50px auto 0;
+
+    padding: 30px 15px;
+    border-radius: 5px;
+    background-color: $color-bg-wrapper;
 
     @media (max-width: 420px) {
         width: 90%;

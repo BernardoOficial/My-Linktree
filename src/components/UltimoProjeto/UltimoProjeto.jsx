@@ -1,11 +1,20 @@
 import React from 'react';
 
+import GifProjeto from '../../images/projeto-github.gif'
+
 const UltimoProjeto = () => {
 
     return (
-        <section>
-            <h1>Ultimo projeto</h1>
-        </section>
+      <section className="projeto">
+        <h1>Último projeto no Github</h1>
+
+        <figure className="projeto__figure">
+            <img className="projeto__image" src={GifProjeto} alt="Projeto no Github" />
+        </figure>
+
+        <a className="projeto__link" target="_blank" href="https://github.com/BernardoOficial/Tracking-Intro-Component-Master">Acessar último projeto</a>
+
+      </section>
     );
 }
 
