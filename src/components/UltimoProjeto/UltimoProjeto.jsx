@@ -6,7 +6,7 @@ const UltimoProjeto = () => {
 
     return (
       <section className="projeto">
-        <h1>Último projeto no Github</h1>
+        <h1>Meu último projeto no Github</h1>
 
         <figure className="projeto__figure">
             <img className="projeto__image" src={GifProjeto} alt="Projeto no Github" />
