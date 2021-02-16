@@ -1,33 +1,24 @@
-.header {
-}
-
 .header__figure {
     text-align: center;
-}
 
-.header__image {
-    width: 105px;
-    height: 105px;
-    border-radius: 50%;
-    box-shadow: 0 0 0 2px $color-primaria, 0 0 0 4px $color-secundaria;
+    .header__image {
+        width: 105px;
+        height: 105px;
+        border-radius: 50%;
+        box-shadow: 0 0 0 2px $color-primaria, 0 0 0 4px $color-secundaria;
+    }
 }
 
 .header__nome {
+    @extend %texto-padrao;
     margin-top: 15px;
     font-size: 1.8rem;
     line-height: 2.6rem;
-    letter-spacing: 0.5px;
     font-weight: 700;
-    color: $color-text-white;
-    text-align: center;
 }
 
 .header__area {
-    font-size: 1.4rem;
-    line-height: 2rem;
-    letter-spacing: 0.5px;
+    @extend %texto-padrao;
     font-weight: 300;
-    color: $color-text-white;
-    text-align: center;
     font-style: italic;
 }

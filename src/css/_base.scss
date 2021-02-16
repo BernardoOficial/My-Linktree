@@ -11,7 +11,6 @@ html {
 
 body {
     font-family: 'Nunito', sans-serif;
-
     background-image: url(../images/bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -40,3 +39,12 @@ $color-title-black: #333333;
 $color-title-white: #ffffff;
 $color-text-black: #555555;
 $color-text-white: #ffffff;
+
+%texto-padrao {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: $color-text-white;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
